@@ -38,7 +38,7 @@ void MainWindow::createChart()
     // 添加到图表
     chart->addSeries(series0);
 
-    QFile file("../numbers.txt");
+    QFile file("./numbers.txt");
     
     file.open(QIODevice::ReadOnly|QIODevice::Text);
 
